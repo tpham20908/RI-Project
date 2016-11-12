@@ -15,6 +15,7 @@ I've left some boilerplate below for you.
 body {
     font-family: sans-serif;
     margin: 2em;
+    background-color: #ffb;
 }
 
 article {
@@ -31,11 +32,17 @@ h1 {
     width: 800px;
 }
 
+footer {
+    background-color: red;
+    color: white;
+}
+
 ul {
     display: flex;
 }
 
 li {
+    font-size: 2em;
     margin-right: 1em;
     width: calc((100% - 4em) / 5);
 }
