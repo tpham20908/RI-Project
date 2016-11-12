@@ -1,0 +1,53 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+article {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    margin: 0 auto 1em auto;
+    width: 50em;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 1em;
+    width: calc((100% - 4em) / 5);
+}
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+
+}
