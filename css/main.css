@@ -1,30 +1,40 @@
-/*
-
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
-
 body {
     font-family: sans-serif;
     margin: 2em;
-    background-color: #ffb;
+    background-color: #dfd;
+}
+
+header {
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+}
+
+svg#logo {
+  fill: #286;
+  height: 5vw;
+  margin: 0 2em 0 0;
+  width: 6vw;
 }
 
 article {
     max-width: 50em;
     margin: 0 auto;
+    border-bottom: 1px solid #ddd;
 }
 
 img {
     max-width: 100%;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+figcaption {
+    text-align: center;
+    color: #822;
+    font-style: italic;
 }
 
 h1 {
@@ -33,22 +43,20 @@ h1 {
 }
 
 footer {
-    background-color: red;
-    color: white;
+    max-width: 50em;
+    margin: 0 auto;
 }
 
-ul {
-    display: flex;
+div#social {
+  line-height: 3em;
 }
 
-li {
-    font-size: 2em;
-    margin-right: 1em;
-    width: calc((100% - 4em) / 5);
+div#social a {
+  margin: 0 1em 0 0;
 }
 
-li:last-of-type {
-    margin-right: 0;
+div#social a:last-of-type {
+  margin: 0;
 }
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
@@ -56,5 +64,9 @@ li:last-of-type {
 /* zocial */
 [class*="zocial-"]:before {
     font-family: 'zocial', sans-serif;
-
+    color: red;
+    text-shadow: 3em 3em 3em #aaa;
+    width: 2em;
+    display: inline-block;
+    font-size: 2em;
 }
