@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     margin: 2em;
     background-color: #dfd;
+    max-width: 50em;
 }
 
 header {
@@ -17,12 +18,12 @@ svg#logo {
 }
 
 article {
-    max-width: 50em;
+    max-width: 100%;
     margin: 0 auto;
     border-bottom: 1px solid #ddd;
     font-family: 'Ranga', cursive;
     color: #345;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 img {
