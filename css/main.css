@@ -5,7 +5,6 @@ body {
 }
 
 header {
-  display: flex;
   margin: 0 auto;
   width: 800px;
 }
@@ -21,6 +20,9 @@ article {
     max-width: 50em;
     margin: 0 auto;
     border-bottom: 1px solid #ddd;
+    font-family: 'Ranga', cursive;
+    color: #345;
+    font-size: 18px;
 }
 
 img {
@@ -39,7 +41,10 @@ figcaption {
 
 h1 {
     margin: 0 auto 1em auto;
-    width: 800px;
+    font-size: 8vw;
+    font-family: 'Russo One', sans-serif;
+    color: #e40;
+    text-shadow: 5px 5px 5px #777;
 }
 
 footer {
