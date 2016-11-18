@@ -41,10 +41,11 @@ figcaption {
 
 h1 {
     margin: 0 auto 1em auto;
-    font-size: 8vw;
+    font-size: 5vw;
     font-family: 'Russo One', sans-serif;
     color: #e40;
     text-shadow: 5px 5px 5px #777;
+    min-width: 350px;
 }
 
 footer {
