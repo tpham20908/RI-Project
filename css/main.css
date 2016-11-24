@@ -12,6 +12,10 @@ header {
   display: block;
 }
 
+p {
+    text-align: justify;
+}
+
 svg#logo {
   fill: #286;
   height: 5vw;
