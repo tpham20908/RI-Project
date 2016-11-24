@@ -5,11 +5,11 @@ body {
     font-family: sans-serif;
     margin: 2em;
     background-color: #dfd;
+    text-align: center;
 }
 
 header {
-  margin: 0 auto;
-  width: 800px;
+  display: block;
 }
 
 svg#logo {
